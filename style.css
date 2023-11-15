@@ -1,0 +1,231 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    width: 100%;
+    height: 600px;
+    background-image: url('https://i.ibb.co/tpvPX7R/9f79265fc6e846e111029b6225ab773e.jpg');
+    background-size: cover; /* You can use 'contain' instead if you want the whole image to be visible */
+    background-position: center;
+    
+}
+.background-image h1{
+  color: white;
+  text-align: left;
+  padding-top: 200px;
+  margin-left: 20px;
+}
+.background-image button{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  margin: 20px;
+  border-radius: 20px;
+  margin-left: 35px;
+  
+}
+.heading0{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 90px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 2px 8px 2px rgba(30, 35, 35, 1);
+}
+.content .card{
+  flex: 1;
+  margin: 20px 20px;
+  box-shadow: 0px 2px 8px 0px rgba(158, 153, 160, 1);
+}
+.card img{
+  width: 300px;
+  height: 390px;
+}
+.container .content .card h2{
+  font-weight: bold;
+  color: rgba(43, 169, 184, 1);
+  text-transform: capitalize;
+}
+.container .content .card p{
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.second-container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://i.ibb.co/NYzWc4B/0adc256e1f087ca6f23a8ec6280eacf2.jpg');
+  width: 100%;
+ box-shadow: 2px 2px 3px 0px #474851;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+}
+
+.heading{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 2px 9px 0px rgba(30, 35, 35, 1);
+  padding: 150px;
+}
+.heading h1{
+  text-align: center;
+  padding: 120px;
+  color: white;
+}
+.heading .a1{
+  margin: 30px;
+  background-color: red;
+  color: white;
+  padding: 8px;
+  border-radius: 20px;
+}
+.heading .a2{
+  margin: 30px;
+  background-color: red;
+  color: white;
+  padding: 8px;
+  border-radius: 20px;
+}
+.heading .a3{
+  margin: 30px;
+  background-color: red;
+  color: white;
+  padding: 8px;
+  border-radius: 20px;
+}
+.heading .a4{
+  margin: 30px;
+  background-color: red;
+  color: white;
+  padding: 8px;
+  border-radius: 20px;
+}
+.about-container{
+  text-align: center;
+  box-shadow: 2px 2px 8px 2px #33343F;
+  overflow: hidden;
+}
+.info h1{
+  text-align: center;
+  
+}
+.info p{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 2px;
+}
+.about-container img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 60px;
+}
+.last-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading1{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.last img{
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 9px;
+  border-radius: 20px;
+  
+}
+.last-container1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.last1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.last1 img{
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 9px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.last-container{
+  box-shadow: 2px 2px 8px 2px #3E3E43;
+}
+.last-container1{
+  box-shadow: 2px 2px 8px 2px #3E3E43;
+}
+.social-logo{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 90px;
+}
+.logos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.social-logo a{
+  padding: 20px;
+  font-size: 20px;
+  border-top: 40px;
+  background-color: #272925;
+  box-shadow: 2px 2px 6px #12180D;
+  margin: 20px;
+  border-radius: 29px;
+  color: white;
+  font-size: 27px;
+  display: block;
+  position: relative;
+  font-style: initial;
+  margin-top: 120px;
+}
